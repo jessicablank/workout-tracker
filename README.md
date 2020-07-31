@@ -8,6 +8,7 @@
 * [Installation](#installation-instructions)
 * [Usage](#usage)
 * [Database Structure](#database-structure)
+* [Documentation](#documentation)
 * [Tests](#tests)
 * [Questions](#questions)
 * [License](#license-info)
@@ -20,9 +21,18 @@
 
 ## Database Structure
 
+## Documentation
+*plan to link to database structure and routes in another md file
+get route for api/workouts 
+put requests
+When we require a directory, it looks for an index.js file within the folder (after first looking for a json pointing to a "main" file)
 
 ## Tests
-
+The user should be able to:
+- Add excercises to a previous workout plan.
+- Add new excercises to a new workout plan.
+- View multiple the combined weight of multiple exercises on the `stats` page.
+- No validation is required by types
 
 ## Questions
 You can reach the author, Jessica Blankemeier,  via [github](http://github.com/jessicablank) and [email](mailto:jessicablankemeier@gmail.com)
