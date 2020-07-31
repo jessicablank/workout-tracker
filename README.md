@@ -21,18 +21,30 @@
 
 ## Database Structure
 
-## Documentation
+## Documentation & #TODO
 *plan to link to database structure and routes in another md file
 get route for api/workouts 
 put requests
 When we require a directory, it looks for an index.js file within the folder (after first looking for a json pointing to a "main" file)
+- Package.json will allow you to run the seed file with npm run seed. 
+- No validation is required by types, make sure you add some
+- Create Routes
+    - create server.js file
+- Server.js
+ - require depencies
+ - connect with mongoose
+ - set up express app
+ - add middleware to express: static, body parsing
+ - api routes (in)
+
 
 ## Tests
 The user should be able to:
 - Add excercises to a previous workout plan.
 - Add new excercises to a new workout plan.
 - View multiple the combined weight of multiple exercises on the `stats` page.
-- No validation is required by types
+
+
 
 ## Questions
 You can reach the author, Jessica Blankemeier,  via [github](http://github.com/jessicablank) and [email](mailto:jessicablankemeier@gmail.com)
