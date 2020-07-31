@@ -1,15 +1,17 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application demonstrating mongoose",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint",
     "start": "node server.js",
     "watch": "nodemon server.js",
+    "lint": "eslint --quiet .",
+    "fix": "eslint --fix .",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Jessica Blankemeier",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
