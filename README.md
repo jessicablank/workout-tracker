@@ -31,7 +31,7 @@ When we require a directory, it looks for an index.js file within the folder (af
 - Create Routes
     - create server.js file
 - Server.js
- - require depencies
+ - require dependencies
  - connect with mongoose
  - set up express app
  - add middleware to express: static, body parsing
