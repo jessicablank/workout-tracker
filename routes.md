@@ -13,7 +13,7 @@
 * Requirements: workout id
 
 ## /api/workouts
-* Async function: createWorkout
+* Async function: createWorkout()
 * Method: POST
 * Description: Creates a new workout in the workout db
 
