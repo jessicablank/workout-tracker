@@ -1,6 +1,6 @@
 
-# API Endpoints 
-See file api.js in the public folder.
+# API Routes 
+
 
 ## /api/workouts
 * Async function: getLastWorkout()
@@ -20,3 +20,17 @@ See file api.js in the public folder.
 ## /api/workouts/range
 * Async function: getWorkoutsInRange()
 * Description: JSON workouts for rendering graphics
+
+# HTML Routes
+## /
+* Method: GET
+* Description: join with index.html file in public folder for user to see last workout entered and buttons to route to /exercise & /stats
+
+## /exercise
+* Method: GET
+* Description: join with exercise.html file in public folder for user to enter a new exercise
+
+## /stats
+* Method: GET
+* Description: join with stats.html file in public folder to show graphs of exercise records
+
