@@ -2,8 +2,8 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 
-const addHtmlRoutes = require("./routes/html-routes")
-const addAPIRoutes = require("./routes/api-routes")
+const addHtmlRoutes = require("./routes/html-routes");
+const addAPIRoutes = require("./routes/api-routes");
 
 // Connect to database environment 
 const PORT = process.env.PORT || 3000;

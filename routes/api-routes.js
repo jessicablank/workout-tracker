@@ -1,11 +1,12 @@
-//require models
+/** @format */
+
 const db = require("../models");
 
 module.exports = (app) => {
   //Getting all of the workouts
   app.get("/api/workouts", (req, res) => {
     db.Workout.find({})
-      .then(data => {
+      .then((data) => {
         res.json(data);
       })
       .catch((err) => {
@@ -16,7 +17,7 @@ module.exports = (app) => {
   //Create a new workout
   app.post("/api/workouts", (req, res) => {
     db.Workout.create({})
-      .then(data => {
+      .then((data) => {
         res.json(data);
       })
       .catch((err) => {
@@ -44,8 +45,8 @@ module.exports = (app) => {
 
   //Getting all of the workouts
   app.get("/api/workouts/range", (req, res) => {
-    db.Workout.find()
-      .then(data => {
+    db.Workout.find({})
+      .then((data) => {
         res.json(data);
       })
       .catch((err) => {
@@ -53,14 +54,5 @@ module.exports = (app) => {
       });
   });
 
-  //Create a new range display
-  app.post("/api/workouts/range", (req, res) => {
-    db.Workout.create({})
-      .then(data => {
-        res.json(data);
-      })
-      .catch((err) => {
-        res.status(400).json(err);
-      });
-  });
-}
+
+};
