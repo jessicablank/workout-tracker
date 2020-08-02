@@ -19,7 +19,8 @@
 
 ## /api/workouts/range
 * Async function: getWorkoutsInRange()
-* Description: JSON workouts for rendering graphics
+* Method: Get
+* Description: Returns all workouts for rendering graphics
 
 # HTML Routes
 ## /

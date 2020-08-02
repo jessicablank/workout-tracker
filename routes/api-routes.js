@@ -2,19 +2,19 @@
 const db = require("../models");
 
 module.exports = (app) => {
- //Getting all of the workouts
- app.get("/api/workouts", (req, res) => {
-  db.Workout.find({})
-    .then(data => {
-      res.json(data);
-    })
-    .catch((err) => {
-      res.status(400).json(err);
-    });
-});
+  //Getting all of the workouts
+  app.get("/api/workouts", (req, res) => {
+    db.Workout.find({})
+      .then(data => {
+        res.json(data);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+  });
 
-    //Create a new workout
-app.post("/api/workouts", (req, res) => {
+  //Create a new workout
+  app.post("/api/workouts", (req, res) => {
     db.Workout.create({})
       .then(data => {
         res.json(data);
@@ -25,14 +25,16 @@ app.post("/api/workouts", (req, res) => {
   });
 
   //Update an existing workout
-app.put("/api/workouts/:id", (req, res) => {
+  app.put("/api/workouts/:id", (req, res) => {
     db.Workout.findByIdAndUpdate(
       req.params.id,
-      {$push: {exercises: req.body}}, 
-      {new: true,
-      runValidators: true }
-    ) 
-    .then((data) => {
+      { $push: { exercises: req.body } },
+      {
+        new: true,
+        runValidators: true
+      }
+    )
+      .then((data) => {
         res.json(data);
       })
       .catch((err) => {
@@ -40,6 +42,25 @@ app.put("/api/workouts/:id", (req, res) => {
       });
   });
 
- //next up: range
-    
+  //Getting all of the workouts
+  app.get("/api/workouts/range", (req, res) => {
+    db.Workout.find()
+      .then(data => {
+        res.json(data);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+  });
+
+  //Create a new range display
+  app.post("/api/workouts/range", (req, res) => {
+    db.Workout.create({})
+      .then(data => {
+        res.json(data);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+  });
 }
