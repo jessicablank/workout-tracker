@@ -23,10 +23,11 @@ If there is no data in the Mongo db collection, you will be prompted to enter an
 
 ![](/public/images/home-with-data.PNG)
 
-The "Add New WorkOut" button will allow you to add a new series of exercises to a workout:
+The "Add New Workout" button will allow you to add a new series of exercises to a workout:
 ![](/public/images/add-excercise.PNG)
 
-You will receive confirmation upon each addition
+You will receive confirmation upon each addition:
+
 ![](/public/images/confirmation.PNG)
 
 And Then be able to see a dashboard charting cardio and resistance training:
