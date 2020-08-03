@@ -21,10 +21,10 @@ Fork and run `npm i` to install dependencies. If you would like to start with da
 ## Usage
 If there is no data in the Mongo db collection, you will be prompted to enter an exercise to start the database. From there, you can track exercises and see your progress on the fitness dashboard. Otherwise, you will see the homepage presenting information about the last workout:
 
-![](/public/images/home-with-data.png)
-![](/public/images/add-exercise.png)
-![](/public/images/confirmation.png)
-![](/public/images/Workout-Dashboard.png)
+![](/public/images/home-with-data.PNG)
+![](/public/images/add-exercise.PNG)
+![](/public/images/confirmation.PNG)
+![](/public/images/Workout-Dashboard.PNG)
 
 ## Tests
 * The user is able to add exercises to a workout in progress via the "Continue Current Workout" button.
