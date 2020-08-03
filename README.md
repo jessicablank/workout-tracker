@@ -16,7 +16,7 @@
 
 
 ## Installation Instructions
-Fork and run `npm i` to install dependencies. If you would like to start with data, run `node seeders/seed.js` prior to `npm start`
+Fork! Then run `npm i` to install dependencies in the terminal. If you would like to start with data, run `node seeders/seed.js` prior to `npm start`
 
 ## Usage
 If there is no data in the Mongo db collection, you will be prompted to enter an exercise to start the database. From there, you can track exercises and see your progress on the fitness dashboard. Otherwise, you will see the homepage presenting information about the last workout:
@@ -36,7 +36,7 @@ And Then be able to see a dashboard charting cardio and resistance training:
 ## Tests
 * The user is able to add exercises to a workout in progress via the "Continue Current Workout" button.
 * The user is able to add exercises to a new workout via the "Add New Workout" button.
-* The user is able to see previous workout data for the past week in the Workout Dashboard. 
+* The user is able to see previous workout data for the past week in the Workout Dashboard.
 
 ## Questions
 You can reach the author, Jessica Blankemeier,  via [github](http://github.com/jessicablank) and [email](mailto:jessicablankemeier@gmail.com)

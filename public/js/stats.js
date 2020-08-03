@@ -58,7 +58,7 @@ function populateChart(data) {
       ],
       datasets: [
         {
-          label: "Workout Duration In Minutes",
+          label: "Cardio Workout Duration In Minutes",
           backgroundColor: "red",
           borderColor: "red",
           data: durations,
@@ -106,7 +106,7 @@ function populateChart(data) {
       ],
       datasets: [
         {
-          label: "Pounds",
+          label: "Resistance Workout Pounds Lifted",
           data: pounds,
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -131,7 +131,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Pounds Lifted"
+        //text: "Pounds Lifted"
       },
       scales: {
         yAxes: [

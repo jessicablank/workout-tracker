@@ -2,6 +2,7 @@
 
 const db = require("../models");
 
+
 module.exports = (app) => {
   //Getting all of the workouts
   app.get("/api/workouts", (req, res) => {
@@ -43,7 +44,7 @@ module.exports = (app) => {
       });
   });
 
-  //Getting all of the workouts
+  //Getting all of the workouts for the graphics
   app.get("/api/workouts/range", (req, res) => {
     db.Workout.find({})
       .then((data) => {
@@ -53,6 +54,5 @@ module.exports = (app) => {
         res.status(400).json(err);
       });
   });
-
 
 };
