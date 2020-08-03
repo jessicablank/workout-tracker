@@ -5,7 +5,7 @@ const db = require("../models");
 module.exports = (app) => {
   //Getting all of the workouts
   app.get("/api/workouts", (req, res) => {
-    db.Workout.find({})
+    db.Workout.find()
       .then((data) => {
         res.json(data);
       })
@@ -15,8 +15,8 @@ module.exports = (app) => {
   });
 
   //Create a new workout
-  app.post("/api/workouts", (req, res) => {
-    db.Workout.create({})
+  app.post("/api/workouts", ({body}, res) => {
+    db.Workout.create({body})
       .then((data) => {
         res.json(data);
       })
