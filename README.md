@@ -1,50 +1,32 @@
-# Workout Tracker
+# Fitness Tracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description:  
- Given front-end starter code as part of coding bootcamp, use Mongo db to create an application that allows users to track their workouts.
+ An app demonstrating the use of [npm mongoose](https://www.npmjs.com/package/mongoose) and [npm morgan](https://www.npmjs.com/package/morgan) to allow users to track multiple exercises during a workout session. 
 
     
 ## Table of Contents:
 * [Installation](#installation-instructions)
 * [Usage](#usage)
-* [Database Structure](#database-structure)
-* [Documentation](#documentation)
 * [Tests](#tests)
+* [Routes](/routes.md)
 * [Questions](#questions)
 * [License](#license-info)
 
-## Installation Instructions
 
+## Installation Instructions
+Fork and run `npm i` to install dependencies. If you would like to start with data, run `node seeders/seed.js` prior to `npm start`
 
 ## Usage
-
-
-## Database Structure
-
-## Documentation & #TODO
-*plan to link to database structure and routes in another md file
-get route for api/workouts 
-put requests
-When we require a directory, it looks for an index.js file within the folder (after first looking for a json pointing to a "main" file)
-- Package.json will allow you to run the seed file with npm run seed. 
-- No validation is required by types, make sure you add some
-- Create Routes
-    - create server.js file
-- Server.js
- - require dependencies
- - connect with mongoose
- - set up express app
- - add middleware to express: static, body parsing
- - api routes (in)
-
+If there is no data in the Mongo db collection, you will be prompted to enter an exercise to start the database. From there, you can track exercises and see your progress on the fitness dashboard. Otherwise, you will see the homepage presenting information about the last workout:
+![](public/images/home-with-data.png)
+![](public/images/add-exercise.png)
+![](public/images/confirmation.png)
+![](public/images/Workout-Dashboard.png)
 
 ## Tests
-The user should be able to:
-- Add excercises to a previous workout plan.
-- Add new excercises to a new workout plan.
-- View multiple the combined weight of multiple exercises on the `stats` page.
-
-
+* The user is able to add exercises to a workout in progress via the "Continue Current Workout" button.
+* The user is able to add exercises to a new workout via the "Add New Workout" button.
+* The user is able to see previous workout data for the past week in the Workout Dashboard. 
 
 ## Questions
 You can reach the author, Jessica Blankemeier,  via [github](http://github.com/jessicablank) and [email](mailto:jessicablankemeier@gmail.com)
