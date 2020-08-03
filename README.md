@@ -16,7 +16,7 @@
 
 
 ## Installation Instructions
-Fork! Then run `npm i` to install dependencies in the terminal. If you would like to start with data, run `node seeders/seed.js` prior to `npm start`
+Fork! Then run `npm i` to install dependencies in the terminal. If you would like to start with data, run `npm seed` prior to `npm start`
 
 ## Usage
 If there is no data in the Mongo db collection, you will be prompted to enter an exercise to start the database. From there, you can track exercises and see your progress on the fitness dashboard. Otherwise, you will see the homepage presenting information about the last workout:
