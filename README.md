@@ -36,4 +36,3 @@ You can reach the author, Jessica Blankemeier,  via [github](http://github.com/j
 Copyright 2020 - present Jessica Blankemeier.
 This project is licensed under the terms of the MIT license. 
 More information is available at [opensource.org/licenses](https://opensource.org/licenses/MIT)
-;
