@@ -1,5 +1,7 @@
 # Fitness Tracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[Deployed on Heroku](https://whispering-wave-78306.herokuapp.com/)
 ## Description:  
  An app demonstrating the use of [npm mongoose](https://www.npmjs.com/package/mongoose) and [npm morgan](https://www.npmjs.com/package/morgan) to allow users to track multiple exercises during a workout session. 
 
