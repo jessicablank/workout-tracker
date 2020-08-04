@@ -9,7 +9,7 @@ const addAPIRoutes = require("./routes/api-routes");
 const PORT = process.env.PORT || 3000;
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
-// Sets up the Express app  to handle data parsing
+// Sets up the Express app to handle data parsing
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
