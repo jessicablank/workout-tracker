@@ -7,7 +7,7 @@
 ## Description:  
  An app demonstrating the use of [npm mongoose](https://www.npmjs.com/package/mongoose) and [npm morgan](https://www.npmjs.com/package/morgan) to allow users to track multiple exercises during a workout session. 
 
- This was a bootcamp homework assignment. i was given starter code. My task was to build and test the API routes and deploy the application on Heroku. I also added styling with color and icons. 
+ This was a bootcamp homework assignment. I was given starter code. My task was to build and test the API routes and deploy the application on Heroku. I also added styling with color and icons. 
     
 ## Table of Contents:
 * [Installation](#installation-instructions)
