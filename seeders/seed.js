@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGO_ATLAS || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
